@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}}</title>
+<style>
+  :root{
+    --bg:#FAF8F5; --sage:#7B8B6F; --sage-l:#EEF1E8;
+    --tea:#C99B5F; --tea-d:#8A6336; --ink:#33302B; --sub:#7A736A; --line:#E4DED3;
+    --金:#B8860B; --木:#4E7A3A; --水:#3F6E9E; --火:#B0483A; --土:#B08A3E;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:#EFEBE4; font-family:"Songti SC","STSong","Noto Serif SC",serif; color:var(--ink);}
+  .page{width:210mm; min-height:297mm; margin:0 auto; background:var(--bg); padding:16mm 15mm; position:relative;}
+  .page::before{content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background:var(--sage); opacity:.55;}
+
+  .hd{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--line); padding-bottom:8px;}
+  .hd h1{margin:0; font-size:17px; font-weight:500; letter-spacing:2px; color:var(--sage);}
+  .hd .sub{font-size:11px; color:var(--sub); letter-spacing:1px;}
+  .fill{font-size:12px; color:var(--sub); margin-top:10px;}
+  .fill span{border-bottom:1px solid var(--line); display:inline-block; min-width:110px; padding:0 4px;}
+
+  .pz{display:flex; gap:0; margin:14px 0 4px;}
+  .pz .col{flex:1; text-align:center; padding:12px 0 10px; border-right:1px dashed var(--line);}
+  .pz .col:last-child{border-right:none;}
+  .pz .lab{font-size:11px; color:var(--sub); letter-spacing:1px;}
+  .pz .gz{font-size:26px; letter-spacing:2px; margin:4px 0 2px; font-weight:500;}
+  .pz .sm{font-size:11px; color:var(--sub);}
+
+  .chips{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 16px;}
+  .chip{font-size:11px; padding:3px 10px; border-radius:12px; background:var(--sage-l); color:#4E5A44; border:1px solid #DDE3D4;}
+
+  h2{font-size:13px; font-weight:500; color:var(--tea-d); letter-spacing:1px; margin:18px 0 8px;
+     border-left:3px solid var(--tea); padding-left:8px;}
+
+  .quote{background:#fff; border:1px solid var(--line); border-radius:6px; padding:10px 12px;
+         font-size:13px; line-height:1.9; color:var(--ink);}
+  .quote b{color:var(--sage); font-weight:500;}
+
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:10px;}
+  .card{background:#fff; border:1px solid var(--line); border-radius:6px; padding:10px 12px;}
+  .card .t{font-size:12.5px; color:var(--sage); font-weight:500; margin-bottom:3px;}
+  .card .d{font-size:11.5px; line-height:1.75; color:#4A463F;}
+
+  ol{margin:0; padding-left:18px;} ol li{margin-bottom:7px; font-size:12px; line-height:1.8;}
+  .do{color:var(--sage); font-weight:500;} .no{color:var(--sub);}
+
+  .note{font-size:11px; color:var(--sub); line-height:1.8;}
+  .ft{margin-top:16px; padding-top:8px; border-top:1px solid var(--line); font-size:10.5px; color:var(--sub); line-height:1.8;}
+
+  .btn{position:fixed; right:18px; bottom:18px; background:var(--sage); color:#fff; border:none;
+       padding:10px 18px; border-radius:20px; font-size:13px; cursor:pointer; font-family:inherit;}
+
+  @page{size:A4; margin:8mm;}
+  @media print{
+    body{background:#fff; font-size:10.8px;}
+    .btn{display:none;}
+    .page{width:auto; min-height:auto; margin:0; padding:0;}
+    .page::before{display:none;}
+    .card,.quote,table{break-inside:avoid;}
+    h2{margin:9px 0 5px;}
+    .hd h1{font-size:16px;} .hd .sub{font-size:11px;}
+    .pz .gz{font-size:23px;} .pz .lab,.pz .sm{font-size:11px;}
+    .pz{margin:8px 0 2px;} .pz .col{padding:7px 0 6px;}
+    .fill{margin-top:8px; font-size:11.5px;}
+    .chips{margin:7px 0 10px;} .chip{font-size:10.5px; padding:3px 9px;}
+    .quote{font-size:11.5px; line-height:1.7; padding:7px 9px;}
+    .grid2{gap:7px;}
+    .card{padding:6px 8px;} .card .t{font-size:11px;} .card .d{font-size:10.2px; line-height:1.6;}
+    ol{padding-left:16px;} ol li{font-size:11px; line-height:1.7; margin-bottom:4px;}
+    .note{font-size:10.5px; line-height:1.7;}
+    svg{width:38% !important; display:block; margin:0 auto;}
+    table{font-size:10px !important;} table td,table th{padding:3px 5px !important;}
+    .ft{font-size:10px; margin-top:12px; line-height:1.7;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="hd">
+    <div>
+      <h1>{{TITLE}}</h1>
+      <div class="sub">{{SUB}}</div>
+    </div>
+    <div class="sub">{{RIGHT}}</div>
+  </div>
+  <div class="fill">{{FILLS}}</div>
+
+  <div class="pz">{{PILLARS}}</div>
+
+  <div class="chips">{{CHIPS}}</div>
+
+  <h2>一句话总评</h2>
+  <div class="quote">{{QUOTE}}</div>
+
+  {{SECTIONS}}
+
+  <div class="ft">{{FOOTNOTE}}</div>
+</div>
+
+<button class="btn" onclick="window.print()">打印 / 存为 PDF</button>
+</body>
+</html>

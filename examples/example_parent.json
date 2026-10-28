@@ -1,0 +1,70 @@
+{
+  "title": "八字命盘 · 家长版解读",
+  "sub": "乾造 · 2021 年 · 农历八月十八 巳时",
+  "right": "杀重有制化 · 命弱运扶",
+  "fills": [{"k": "命主", "w": 110}, {"k": "出生", "w": 130}, {"k": "解读日期", "w": 100}],
+  "pillars": [
+    {"lab": "年", "gan": "辛", "ganWx": "金", "zhi": "丑", "zhiWx": "土", "sm": "七杀 · 偏财"},
+    {"lab": "月", "gan": "丁", "ganWx": "火", "zhi": "酉", "zhiWx": "金", "sm": "食神 · 七杀"},
+    {"lab": "日", "gan": "乙", "ganWx": "木", "zhi": "亥", "zhiWx": "水", "sm": "日主 · 正印"},
+    {"lab": "时", "gan": "辛", "ganWx": "金", "zhi": "巳", "zhiWx": "火", "sm": "七杀 · 伤官"}
+  ],
+  "chips": [
+    "日主乙木 · 秋木身弱", "七杀格", "杀印相生 ＋ 食神制杀", "喜水木 · 忌金土",
+    "巳酉丑三合金局", "巳亥相冲", "月令空亡", "十灵日 · 贵人星多", "命卦乾 · 西四命"
+  ],
+  "quote": "这孩子的盘里，压力那股劲儿是天生就大的 —— 但<b>印星给了他根，食神给了他出口，贵人星一路在旁</b>。<br>养对了（温和滋养 ＋ 释放表达），这股劲儿就是他的铠甲；养错了（高压压制），才变成伤。",
+  "sections": [
+    {"type": "cards", "t": "月令与日主：他生在什么样的季节里", "items": [
+      {"t": "乙木花草 · 生在仲秋酉月", "d": "日元乙木是花草藤蔓，月令酉金是仲秋白露后的纯金。<b>金克木</b>，所以他「不得令」—— 生在最不利于自己的季节里，这叫<b>七杀当令</b>。"},
+      {"t": "三合金局：压力被放大了", "d": "年支丑、月支酉、时支巳，凑成<b>巳酉丑三合金局</b>，天干又透两个辛金 —— 金（压力、竞争、规矩）的力量成倍放大。"},
+      {"t": "但有缝：合而欠固", "d": "时支巳被日支亥冲（巳亥冲），三合局虽具三支却不牢固。所以是<b>「金极旺，但有缝」</b>—— 压力看着吓人，实际有松动的地方。"},
+      {"t": "两件救应，他都随身带着", "d": "日坐亥水正印，金生水、水生木，压力转成学识（<b>杀印相生</b>）；月干丁火食神克金，用自己的聪明化解难题（<b>食神制杀</b>）。"}
+    ]},
+    {"type": "note", "t": null, "html": "白话说：<b style=\"color:var(--sage)\">他生在一个竞争很强的环境里，而化解压力的两件本事，命里一开始就给他备好了。</b>"},
+    {"type": "svg", "t": "命局力量结构", "svg": "<defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M2 1L8 5L2 9\" fill=\"none\" stroke=\"context-stroke\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><g><rect x=\"270\" y=\"20\" width=\"140\" height=\"52\" rx=\"8\" fill=\"#F5E7E7\" stroke=\"#A85751\" stroke-width=\"0.5\"/><text x=\"340\" y=\"38\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"500\" fill=\"#7A3F3B\">辛 × 2 · 酉</text><text x=\"340\" y=\"56\" text-anchor=\"middle\" font-size=\"11\" fill=\"#A85751\">七杀围身</text></g><g><rect x=\"40\" y=\"130\" width=\"120\" height=\"52\" rx=\"8\" fill=\"#F7EEE0\" stroke=\"#B08A3E\" stroke-width=\"0.5\"/><text x=\"100\" y=\"148\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"500\" fill=\"#7A5B20\">丑 · 酉</text><text x=\"100\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" fill=\"#B08A3E\">拱金助杀</text></g><g><rect x=\"270\" y=\"130\" width=\"140\" height=\"60\" rx=\"8\" fill=\"#EAF0E4\" stroke=\"#5C6B52\" stroke-width=\"0.5\"/><text x=\"340\" y=\"150\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"500\" fill=\"#3E4A38\">乙 · 日主</text><text x=\"340\" y=\"170\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5C6B52\">秋木身弱 坐亥得生</text></g><g><rect x=\"520\" y=\"130\" width=\"120\" height=\"52\" rx=\"8\" fill=\"#F5EAE4\" stroke=\"#B0483A\" stroke-width=\"0.5\"/><text x=\"580\" y=\"148\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"500\" fill=\"#7A2F24\">丁 · 食神</text><text x=\"580\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" fill=\"#B0483A\">制杀护身 · 出口</text></g><g><rect x=\"40\" y=\"240\" width=\"120\" height=\"52\" rx=\"8\" fill=\"#E4EDF5\" stroke=\"#3F6E9E\" stroke-width=\"0.5\"/><text x=\"100\" y=\"258\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"500\" fill=\"#25506F\">亥 · 正印</text><text x=\"100\" y=\"276\" text-anchor=\"middle\" font-size=\"11\" fill=\"#3F6E9E\">化杀生身 · 根</text></g><g><rect x=\"520\" y=\"240\" width=\"120\" height=\"52\" rx=\"8\" fill=\"#F7EEE0\" stroke=\"#B08A3E\" stroke-width=\"0.5\"/><text x=\"580\" y=\"258\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"500\" fill=\"#7A5B20\">巳 · 时支</text><text x=\"580\" y=\"276\" text-anchor=\"middle\" font-size=\"11\" fill=\"#B08A3E\">藏丙戊庚 · 冲亥</text></g><path d=\"M340 72 L340 126\" fill=\"none\" stroke=\"#A85751\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/><text x=\"350\" y=\"104\" font-size=\"11\" fill=\"#A85751\">克身 · 压力来源</text><path d=\"M160 156 L266 156\" fill=\"none\" stroke=\"#B08A3E\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/><text x=\"166\" y=\"148\" font-size=\"11\" fill=\"#B08A3E\">拱金助杀</text><path d=\"M520 156 L414 156\" fill=\"none\" stroke=\"#B0483A\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/><text x=\"430\" y=\"148\" font-size=\"11\" fill=\"#B0483A\">制杀</text><path d=\"M160 266 L240 266 L240 200 L266 190\" fill=\"none\" stroke=\"#3F6E9E\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/><text x=\"166\" y=\"258\" font-size=\"11\" fill=\"#3F6E9E\">生身化杀</text><path d=\"M520 266 L170 266\" fill=\"none\" stroke=\"#A85751\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" marker-end=\"url(#arrow)\"/><text x=\"345\" y=\"258\" text-anchor=\"middle\" font-size=\"11\" fill=\"#A85751\">巳亥相冲 · 动摇印星之根</text>"},
+    {"type": "cards", "t": "这个孩子是什么样的", "items": [
+      {"t": "敏感、要强、自律", "d": "乙木被三重七杀围着长大，外在柔、内在刚。早早就会看大人脸色，对自己要求很高 —— 是「不说，但都记着」的那种孩子。"},
+      {"t": "聪明，一点就透", "d": "印星贴身、十灵日生人，记性与悟性都好。食神透干，脑子转得快。"},
+      {"t": "好动、坐不住", "d": "巳亥相冲、日时双驿马，精力旺盛、闲不住 —— 这不是毛病，是需要物理出口。"},
+      {"t": "贵人缘好", "d": "天德合、月德合、德秀、太极、福星齐聚。难关面前，总有人伸手接住他。"}
+    ]},
+    {"type": "cards", "t": "天赋与培养重点", "items": [
+      {"t": "天赋：能扛事、善化解", "d": "「杀印相生 ＋ 食神制杀」是能做大事的配置 —— 抗压、善学、遇难题能自己找出路。适合需要<b>逻辑、规则、担当</b>的方向，但<b>不宜过早限定</b>。"},
+      {"t": "培养重点：以柔克刚", "d": "七杀旺的孩子，倔脾气是隐性的。教育上<b>多用「印」的力量 —— 讲道理、包容、给安全感</b>，不要硬碰硬。他吃软不吃硬。"}
+    ]},
+    {"type": "break"},
+    {"type": "olist", "t": "在家怎么养（这一栏最重要）", "items": [
+      "<span class=\"do\">做：</span>温和而稳定的规则。<span class=\"no\">不做：</span>高压、打骂、冷暴力 —— 他命里那股「杀」已经够重了，再加压，会养出紧绷或逆反。",
+      "<span class=\"do\">做：</span>给表达和创造留出口 —— 画画、音乐、讲故事、搭东西，让他「生出来」。<span class=\"no\">不做：</span>只盯成绩，把才艺全砍掉。",
+      "<span class=\"do\">做：</span>户外和运动给足量，跑够了，心才定得下来。<span class=\"no\">不做：</span>逼着长时间静坐。",
+      "<span class=\"do\">做：</span>陪伴、阅读、稳定的依恋关系 —— 这就是他的「印星」，是最好的补。<span class=\"no\">不做：</span>把自己的焦虑传递给他，他收得到。",
+      "<span class=\"do\">做：</span>居室近水、多绿植，取名与衣着取水木意象（他喜水木、忌金土）。<span class=\"no\">不做：</span>过度迷信，把它当调味，别当主菜。"
+    ]},
+    {"type": "table", "t": "学习发展：按大运看「什么时候怎么学」", "head": ["阶段", "大运", "学习状态", "家长怎么做"], "rows": [
+      ["7–16 岁<br><span style=\"color:var(--sub); font-size:10px;\">小学·初中</span>", "丙申<br><span style=\"color:var(--sub); font-size:10px;\">伤官＋正官</span>", "思维活跃、爱探索；规矩感与学业压力同步上升", "别过度高压；运动消耗多余精力，<b style=\"color:var(--sage)\">练专注力</b>；压力用「印」化 —— 陪读、阅读、把道理讲透"],
+      ["17–26 岁<br><span style=\"color:var(--sub); font-size:10px;\">高中·大学</span>", "乙未<br><span style=\"color:var(--sub); font-size:10px;\">比肩＋偏财</span>", "同伴影响变大，自主性增强；专业选择期", "替他把关<b style=\"color:var(--sage)\">朋友圈与目标</b>；宜选需要逻辑与规则的专业；给他决策权"],
+      ["27–36 岁<br><span style=\"color:var(--sub); font-size:10px;\">走入社会</span>", "甲午<br><span style=\"color:var(--sub); font-size:10px;\">劫财＋食神</span>", "输出型阶段，靠本事与表达吃饭", "鼓励往<b style=\"color:var(--sage)\">管理与专业纵深</b>走，别频繁换赛道"]
+    ]},
+    {"type": "note", "t": null, "html": "<b style=\"color:#A85751\">关于大运的说明：</b>辛丑年属阴年，男命大运应逆排 —— 本卡按<b>丙申 → 乙未 → 甲午</b>推算。若外部排盘软件排的是丙午、乙巳、甲辰，属误排，<b style=\"color:var(--sage)\">建议以本卡为准并复核年份</b>；两版交集结论一致：7–16 岁都属活跃好动、需要专注力训练。"},
+    {"type": "note", "t": "命卦 · 乾（西四命）｜居家方位", "html": "推法：2000 年后生男，<b style=\"color:var(--sage)\">(99 − 21) % 9 = 6</b>，卦数 6 为<b>乾卦</b>。「乾六天五祸绝延生」—— 四吉落在西四方。"},
+    {"type": "table", "t": null, "head": ["方位", "游年星", "吉凶", "怎么用"], "rows": [
+      ["正西（兑）", "生气", "<span style=\"color:var(--sage);\">大吉</span>", "书桌、睡床首选 · 旺生机与学业"],
+      ["西南（坤）", "延年", "<span style=\"color:var(--sage);\">中吉</span>", "卧室 · 身心和合"],
+      ["东北（艮）", "天医", "<span style=\"color:var(--sage);\">次吉</span>", "病后休养位 · 稳定"],
+      ["西北（乾）", "伏位", "<span style=\"color:var(--sage);\">小吉</span>", "平稳守成"],
+      ["正北（坎）", "六煞", "次凶", "情绪易缠、分心"],
+      ["东南（巽）", "祸害", "小凶", "琐碎摩擦"],
+      ["正东（震）", "五鬼", "<span style=\"color:#A85751;\">大凶</span>", "睡不安、易惊扰"],
+      ["正南（离）", "绝命", "<span style=\"color:#A85751;\">大凶</span>", "忌作长期卧榻书桌"]
+    ]},
+    {"type": "note", "t": null, "html": "<b style=\"color:var(--sage)\">两套系统打架时怎么办：</b>他八字喜水木（北方属水、东方属木），可这两方恰是乾命凶方。处理办法是「<b style=\"color:var(--sage)\">方位取吉星，颜色补喜用</b>」—— 卧榻书桌取正西／东北／西南；水木改用床品窗帘的蓝绿色、木质书桌、房间绿植来补。"},
+    {"type": "cards", "t": "需要留意的地方", "items": [
+      {"t": "肝胆、呼吸系统、眼睛", "d": "金木相战：木受克留意肝胆与视力，金过旺留意呼吸道。学龄期别熬夜晚睡。"},
+      {"t": "睡眠与亢奋", "d": "巳亥相冲、水火相战，易亢奋难入眠或夜惊，睡前留一段安静的缓冲。"},
+      {"t": "磕碰与出行", "d": "驿马逢冲，跑跳攀爬格外上心，交通与游乐设施多加看护。"},
+      {"t": "情绪安全感（巳亥冲）", "d": "内心容易纠结、情绪有波动。要让他清楚知道：<b>无论外面多大压力，家里永远是他这一方（印星）的后盾</b>。"}
+    ]}
+  ],
+  "footnote": "命理属传统文化参考视角，看的是倾向，不作定论，更不作医疗与教育决策的依据。孩子的健康请遵医嘱，成长请以您亲眼看到的那个孩子为准。<br>出生信息仅用于本次解读，不留档、不外传。"
+}
